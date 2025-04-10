@@ -78,11 +78,10 @@ header a{
 }
 
 /* se maior que 1024 executa */
-@media(min-width: 1024){
+@media(min-width: 1024px){
     .courses{
-        
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
     }
 
