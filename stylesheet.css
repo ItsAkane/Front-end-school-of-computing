@@ -60,9 +60,31 @@ header a{
         align-items: center;
         justify-content: space-between;
     }
+
+    .banner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .courses{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .course{
+        margin-left: 1rem;
+    }
 }
 
 /* se maior que 1024 executa */
 @media(min-width: 1024){
+    .courses{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
     
 }
